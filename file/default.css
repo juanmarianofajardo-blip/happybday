@@ -10,7 +10,7 @@ body {
   overflow: auto;
 }
 a {
-  color: white;
+  color: rgb(1, 14, 100);
   font-size: 14px;
 }
 #main {
@@ -81,6 +81,6 @@ a {
   position: absolute;
   margin-top:450px;
   font-size: 25px;
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
 
 }

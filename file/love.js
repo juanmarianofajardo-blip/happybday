@@ -199,7 +199,7 @@
             var len = this.length / 2;
 
             ctx.save();
-            ctx.strokeStyle = '#FFF';
+            ctx.strokeStyle = '#70c000ff';
             ctx.lineWidth = this.height;
             ctx.lineCap = 'round';
             ctx.lineJoin = 'round';
@@ -237,7 +237,7 @@
             var x = seed.x || this.width / 2;
             var y = seed.y || this.height / 2;
             var point = new Point(x, y);
-            var color = seed.color || '#FF0000';
+            var color = seed.color || '#fb309cff';
             var scale = seed.scale || 1;
 
             this.seed = new Seed(this, point, scale, color);
